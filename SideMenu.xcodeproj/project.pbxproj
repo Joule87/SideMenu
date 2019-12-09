@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4868C02239E94FE00B6EF70 /* MenuOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4868C01239E94FE00B6EF70 /* MenuOptionTableViewCell.swift */; };
+		F4868C04239EB0CA00B6EF70 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4868C03239EB0CA00B6EF70 /* MenuOption.swift */; };
+		F4868C06239EB77C00B6EF70 /* MenuControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4868C05239EB77C00B6EF70 /* MenuControllerDelegate.swift */; };
+		F4868C09239ECC3700B6EF70 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4868C08239ECC3700B6EF70 /* SettingsViewController.swift */; };
+		F4868C0B239ED20600B6EF70 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4868C0A239ED20600B6EF70 /* NotificationsViewController.swift */; };
+		F4868C0D239ED21500B6EF70 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4868C0C239ED21500B6EF70 /* InboxViewController.swift */; };
+		F4868C0F239ED22400B6EF70 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4868C0E239ED22400B6EF70 /* ProfileViewController.swift */; };
+		F4868C11239ED27500B6EF70 /* BaseSideMenuOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4868C10239ED27500B6EF70 /* BaseSideMenuOptionsViewController.swift */; };
 		F4D3CF97239E7922003CC9E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3CF96239E7922003CC9E0 /* AppDelegate.swift */; };
 		F4D3CF99239E7922003CC9E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3CF98239E7922003CC9E0 /* SceneDelegate.swift */; };
 		F4D3CF9E239E7922003CC9E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D3CF9C239E7922003CC9E0 /* Main.storyboard */; };
@@ -19,6 +27,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4868C01239E94FE00B6EF70 /* MenuOptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionTableViewCell.swift; sourceTree = "<group>"; };
+		F4868C03239EB0CA00B6EF70 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		F4868C05239EB77C00B6EF70 /* MenuControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuControllerDelegate.swift; sourceTree = "<group>"; };
+		F4868C08239ECC3700B6EF70 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F4868C0A239ED20600B6EF70 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		F4868C0C239ED21500B6EF70 /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		F4868C0E239ED22400B6EF70 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F4868C10239ED27500B6EF70 /* BaseSideMenuOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSideMenuOptionsViewController.swift; sourceTree = "<group>"; };
 		F4D3CF93239E7922003CC9E0 /* SideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D3CF96239E7922003CC9E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4D3CF98239E7922003CC9E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +59,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4868C00239E94D300B6EF70 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F4868C01239E94FE00B6EF70 /* MenuOptionTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F4868C07239ECC0100B6EF70 /* SideMenuControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4868C10239ED27500B6EF70 /* BaseSideMenuOptionsViewController.swift */,
+				F4868C08239ECC3700B6EF70 /* SettingsViewController.swift */,
+				F4868C0A239ED20600B6EF70 /* NotificationsViewController.swift */,
+				F4868C0C239ED21500B6EF70 /* InboxViewController.swift */,
+				F4868C0E239ED22400B6EF70 /* ProfileViewController.swift */,
+			);
+			path = SideMenuControllers;
+			sourceTree = "<group>";
+		};
 		F4D3CF8A239E7922003CC9E0 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +122,7 @@
 		F4D3CFAB239E79E3003CC9E0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F4868C03239EB0CA00B6EF70 /* MenuOption.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -93,6 +130,7 @@
 		F4D3CFAC239E79EB003CC9E0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F4868C00239E94D300B6EF70 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -100,6 +138,7 @@
 		F4D3CFAD239E79F1003CC9E0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F4868C07239ECC0100B6EF70 /* SideMenuControllers */,
 				F4D3CFB6239E8840003CC9E0 /* Protocols */,
 				F4D3CFAE239E7A12003CC9E0 /* ContainerController.swift */,
 				F4D3CFB2239E7A2C003CC9E0 /* HomeController.swift */,
@@ -112,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				F4D3CFB4239E868F003CC9E0 /* HomeControllerDelegate.swift */,
+				F4868C05239EB77C00B6EF70 /* MenuControllerDelegate.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -188,9 +228,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D3CFB1239E7A1E003CC9E0 /* MenuController.swift in Sources */,
+				F4868C04239EB0CA00B6EF70 /* MenuOption.swift in Sources */,
+				F4868C02239E94FE00B6EF70 /* MenuOptionTableViewCell.swift in Sources */,
+				F4868C09239ECC3700B6EF70 /* SettingsViewController.swift in Sources */,
+				F4868C06239EB77C00B6EF70 /* MenuControllerDelegate.swift in Sources */,
 				F4D3CFB3239E7A2C003CC9E0 /* HomeController.swift in Sources */,
+				F4868C11239ED27500B6EF70 /* BaseSideMenuOptionsViewController.swift in Sources */,
 				F4D3CF97239E7922003CC9E0 /* AppDelegate.swift in Sources */,
+				F4868C0D239ED21500B6EF70 /* InboxViewController.swift in Sources */,
 				F4D3CFB5239E868F003CC9E0 /* HomeControllerDelegate.swift in Sources */,
+				F4868C0B239ED20600B6EF70 /* NotificationsViewController.swift in Sources */,
+				F4868C0F239ED22400B6EF70 /* ProfileViewController.swift in Sources */,
 				F4D3CF99239E7922003CC9E0 /* SceneDelegate.swift in Sources */,
 				F4D3CFAF239E7A12003CC9E0 /* ContainerController.swift in Sources */,
 			);
